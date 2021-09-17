@@ -13,6 +13,9 @@ namespace Generics
 
             double doubleoutput = MaximumNumber.MaximumFloat(30.7, 28.47, 98.56);
             Console.WriteLine(doubleoutput);
+            
+            string stringoutput = MaximumNumber.MaximumString("80","26","69");
+            Console.WriteLine(stringoutput);
         }
     }
 }
