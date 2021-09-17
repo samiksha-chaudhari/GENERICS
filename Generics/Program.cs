@@ -7,6 +7,9 @@ namespace Generics
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Generics Program");
+            Console.WriteLine("Maximum Number is :");
+            int output = MaximumNumber.MaximumIntegerNumber(50, 60, 70);
+            Console.WriteLine(output);
         }
     }
 }
