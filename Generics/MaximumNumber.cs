@@ -22,7 +22,7 @@ namespace Generics
             {
                 return thirdValue;
             }
-            throw new Exception("firstNumber,secondNumber and thirdNumber are same");
+            return firstValue;
         }
 
         //creating method to find maximum float number
@@ -41,7 +41,7 @@ namespace Generics
             {
                 return thirdValue;
             }
-            throw new Exception("firstNumber,secondNumber and thirdNumber are same");
+            return firstValue;
         }
 
         //creating method to find maximum string
@@ -69,7 +69,7 @@ namespace Generics
                 return thirdString;
             }
 
-            throw new Exception("firstNumber,secondNumber and thirdNumber are same");
+            return firstString;
         }
     }
 }
